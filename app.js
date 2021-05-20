@@ -27,7 +27,7 @@ function init() {
 
     dz.on("complete", function (file) {
         let imageData = file.dataURL;
-
+        //console.log(imageData);
        // var url = "http://127.0.0.1:5000/classify_image";
         // var url = "http://1051690e3522.ngrok.io/classify_image";
         var url = "https://ac7751789266.ngrok.io/classify_image";
