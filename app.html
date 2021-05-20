@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arecanut Disease Classifier</title>
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./result.css">
+    <link rel="icon" href="./images/logo.png">
+</head>
+
+<body>
+    <nav class="heading">
+        <a class="" href="app.html">Arecanut Disease Classifier</a>
+    </nav>
+
+    <div class="container">
+        <div class="all-images">
+            <div class="one" data-player="Healthy_Leaf">
+                <div class="">
+                    <div class="">
+                        <img class="info" src="./images/Healthy_Leaf.jpg" alt="Card image cap">
+                    </div>
+                    <div class="">
+                        <h5 class="cap">Healthy Leaf</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="one" data-player="Healthy_Nut">
+                    <div class="">
+                        <div class="">
+                            <img class="info" src="./images/healthy_nut.jpg" alt="Card image cap">
+                        </div>
+                        <div class="">
+                            <h5 class="cap">Healthy Nut</h5>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="one" data-player="Healthy_Trunk">
+                    <div class="">
+                        <div class="">
+                            <img class="info" src="./images/Healthy_trunk.jpg" alt="Card image cap">
+                        </div>
+                        <div class="">
+                            <h5 class="cap">Healthy Trunk</h5>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="one" data-player="Mahali_Koleroga">
+                <div class="">
+                    <div class="">
+                        <img class="info" src="./images/Mahali.jpg" alt="Card image cap">
+                    </div>
+                    <div class="">
+                        <h5 class="cap">Mahali Koleroga</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one" data-player="Stem_bleeding">
+                <div class="">
+                    <div class="">
+                        <img class="info" src="./images/diseased_trunk.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="">
+                        <h5 class="cap">Stem bleeding</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one" data-player="Yellow_disease">
+                <div class="">
+                    <div class="">
+                        <img class="info" src="./images/yellow_disease.jpg" alt="Card image cap">
+                    </div>
+                    <div class="">
+                        <h5 class="cap">Yellow disease</h5>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="result-part">
+            <div class="image-submission">
+                <div class="drag-box">
+                        <form action="/file-upload" class="dropzone" id="dropzone" >
+                            <div class="dz-message">
+                                <img src="./images/upload.png" style="height: 100px; width: 100px;"><br>
+                                <span class="">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                        <div class="">
+                           <button id="submitBtn" type="button" class="button">Classify</button>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>
+            </div>
+
+            <div class="result-holder" id="resultHolder">
+            </div>
+            <div class="result-table" id="divClassTable">
+                <table id="classTable">
+                        <tr>
+                            <th style="text-align: center;">Areca</th>
+                            <th style="text-align: center;">Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Healthy Leaf</td>
+                            <td id="score_Healthy_Leaf"></td>
+                        </tr>
+                        <tr>
+                            <td>Healthy Nut</td>
+                            <td id="score_Healthy_Nut"></td>
+                        </tr>
+                        <tr>
+                            <td>Healthy Trunk</td>
+                            <td id="score_Healthy_Trunk"></td>
+                        </tr>
+                        <tr>
+                            <td>Mahali/Koleroga</td>
+                            <td id="score_Mahali_Koleroga"></td>
+                        </tr>
+                        <tr>
+                            <td>Stem bleeding</td>
+                            <td id="score_Stem_bleeding"></td>
+                        </tr>
+                        <tr>
+                            <td>Yellow disease</td>
+                            <td id="score_Yellow_disease"></td>
+                        </tr>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="remedy-holder" style="margin-top: 10px;" id="remedyHolder">
+        <h2 class="remedy-heading">Remedy for Detected Disease</h2>
+        <table class="table">
+            <tr>
+              <td class="remedy" id="remedy"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+</html>
