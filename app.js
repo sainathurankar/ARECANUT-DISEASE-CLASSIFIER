@@ -28,7 +28,7 @@ function init() {
     dz.on("complete", function (file) {
         let imageData = file.dataURL;
 
-        var url = "https://dc3cfdbe0ee3.ngrok.io/classify_image";
+        var url = "https://9e868c50f91a.ngrok.io/classify_image";
 
         $.post(url, {
             image_data: file.dataURL

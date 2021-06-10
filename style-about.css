@@ -49,6 +49,18 @@ body {
   border: 1px solid black;
 }
 
+.profile .profile-imgg {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  /*filter: grayscale(100%);*/
+  cursor: pointer;
+  transition: 400ms;
+  margin-left: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
 .user-name {
   margin-top: 30px;
   font-size: 20px;
@@ -60,21 +72,41 @@ body {
   margin-left: 10px;
 }
 
+.user-name1-guide{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: -10px;
+}
+
 .user-name2{
   margin-top: 30px;
   font-size: 20px;
   margin-left: 30px;
 }
 
+.user-name21{
+  margin-top: 20px;
+}
+
+.h521{
+  margin-top: 2px;
+}
+
 .h51{
   margin-left: 10px;
 }
+
 
 .h52{
   margin-left: 30px;
 }
 
-
+.profiles-one {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+  margin-top: 40px;
+}
 
 
 .profile h5 {
@@ -148,6 +180,12 @@ a{
   color: #0241b8ad;
 }
 
+.guide{
+  text-align: center;
+  margin-left: -75px;
+}
+
+
 
 @media only screen and (max-width: 1150px) {
   .profiles {
@@ -187,6 +225,12 @@ a{
   .h52{
     margin-left: 15px;
   }
+
+
+  .guide{
+    margin-left: 10px;
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -215,5 +259,17 @@ a{
 
   .profile .social-media{
     margin-left: -20px;
+  }
+
+  .profiles-one  .profile{
+    margin-left: 460px;
+  }
+
+  h2{
+    margin-left: 45px;
+  }
+
+  .classifier a{
+    margin-left: 46px;
   }
 }
