@@ -16,7 +16,9 @@ Neural Networks and suggests remedies for it.
 
 ![Website Desktop Screenshot](images/UI.PNG | width=80)
 ![Website Mobile Screenshot](images/mob.png | width=50)
-
+![test image size](images/mob.png){:class="img-responsive"}
+![test image size](images/mob.png){:height="50%" width="50%"}
+![test image size](images/mob.png){:height="700px" width="400px"}
 ## Run
 
 To use this Website
