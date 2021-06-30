@@ -14,8 +14,8 @@ Neural Networks and suggests remedies for it.
   
 ## Screenshots
 
-![Website Desktop Screenshot](images/UI.PNG)
-![Website Mobile Screenshot](images/mob.png)
+![Website Desktop Screenshot](images/UI.PNG | width=80)
+![Website Mobile Screenshot](images/mob.png | width=50)
 
 ## Run
 
