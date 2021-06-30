@@ -9,7 +9,7 @@ Neural Networks and suggests remedies for it.
 - [@Basava44](https://github.com/Basava44)
 ## Documentation
 
-[Documentation](https://bit.ly/2ULbNbu)
+[About Project](https://bit.ly/2ULbNbu)
 
   
 ## Screenshots
