@@ -14,14 +14,14 @@ Neural Networks and suggests remedies for it.
   
 ## Screenshots
 
-![Website Screenshot](images/UI.PNG)
-
+![Website Desktop Screenshot](images/UI.PNG)
+![Website Mobile Screenshot](images/mob.png)
 
 ## Run
 
 To use this Website
 
-[Click Here](https://bit.ly/3jCbLNo)
+[Click Here](https://bit.ly/3Ai8VTE)
 
 
   
