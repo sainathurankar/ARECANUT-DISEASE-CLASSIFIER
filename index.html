@@ -13,8 +13,9 @@
 </head>
 
 <body>
+    <div id="loader" class="center"></div>
     <nav class="heading">
-        <a class="" href="app.html">Arecanut Disease Classifier</a>
+        <a class="" href="index.html">Arecanut Disease Classifier</a>
     </nav>
     <select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en">English</option><option value="en|kn">Kannada</option></select><div id="google_translate_element2"></div>
     <div class="container">
@@ -41,37 +42,37 @@
                         </div>
                     </div>
             </div>
-            <div class="one" id="left1" data-player="Healthy_Trunk">
+            <div class="one"  data-player="Healthy_Trunk">
                     <div class="">
                         <div class="">
-                            <img class="info" src="./images/Healthy_trunk.jpg" alt="Card image cap">
+                            <img class="info" id="left1" src="./images/Healthy_trunk.jpg" alt="Card image cap">
                         </div>
                         <div class="">
-                            <h5 class="cap">Healthy Trunk</h5>
+                            <h5 class="cap" id="lefth">Healthy Trunk</h5>
                             </p>
                         </div>
                     </div>
             </div>
 
-            <div class="one" id="left2" data-player="Mahali_Koleroga">
+            <div class="one"  data-player="Mahali_Koleroga">
                 <div class="">
                     <div class="">
-                        <img class="info" src="./images/Mahali.jpg" alt="Card image cap">
+                        <img class="info" id="left2" src="./images/Mahali.jpg" alt="Card image cap">
                     </div>
                     <div class="">
-                        <h5 class="cap">Mahali Koleroga</h5>
+                        <h5 class="cap" id="left2h">Mahali Koleroga</h5>
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="one" data-player="Stem_bleeding">
+            <div class="one"  data-player="Stem_bleeding">
                 <div class="">
                     <div class="">
-                        <img class="info" src="./images/diseased_trunk.jpeg" alt="Card image cap">
+                        <img class="info" id="left3" src="./images/diseased_trunk.jpeg" alt="Card image cap">
                     </div>
                     <div class="">
-                        <h5 class="cap">Stem bleeding</h5>
+                        <h5 class="cap" id="left3h">Stem bleeding</h5>
                         </p>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
                 </div>
             </div> 
         </div>
-
+    </div>
         <div class="result-part">
             <div class="image-submission">
                 <div class="drag-box">
@@ -145,7 +146,7 @@
             </div>
             
         </div>
-    </div>
+    
 
     <div class="remedy-holder" style="margin-top: 10px;" id="remedyHolder">
         <h2 class="remedy-heading">Remedy for Detected Disease</h2>
@@ -157,11 +158,10 @@
     </div>
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        <h6><a href="https://drive.google.com/file/d/1P1E_sD4LwMTOBlnhBoS0oRFePGt-He6G/view?usp=drivesdk" class="link" download>Documentation</a><a class="link" href="about.html">Meet Our Team</a></h6>
-        © Copyright 2021:
+        <h6><a href="https://drive.google.com/file/d/1P1E_sD4LwMTOBlnhBoS0oRFePGt-He6G/view?usp=drivesdk" class="link" download>Documentation</a><a class="link" href="about.html">Meet Our Team</a><div style="display:inline;color:white" onclick="API()">API</div></h6>
+        &copy; Copyright 2021:
         <a class="text-white" href="https://rvce.edu.in//" target="_blank">KSPA</a>
     </div>
-
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="./dropzone.min.js"></script>

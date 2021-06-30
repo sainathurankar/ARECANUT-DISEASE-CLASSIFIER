@@ -6,9 +6,11 @@ var dict = {
     Yellow_disease :"Disease can be controlled by spraying with one per cent Bordeaux mixture or Dithane M 45 @ 3 gram/Liter.",
 };
 
+var url = "http://127.0.0.1:5000/classify_image";
 
-
-
+function API(){
+url = prompt("Please enter the API address",url);
+}
 
 function init() {
     let dz = new Dropzone("#dropzone", {
@@ -28,8 +30,8 @@ function init() {
     dz.on("complete", function (file) {
         let imageData = file.dataURL;
 
-        var url = "https://9e868c50f91a.ngrok.io/classify_image";
-
+        
+	
         $.post(url, {
             image_data: file.dataURL
         }, function (data, status) {
@@ -100,3 +102,13 @@ $(document).ready(function () {
 
     init();
 });
+
+document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+      document.querySelector("body").style.visibility = "hidden";
+      document.querySelector("#loader").style.visibility = "visible";
+    } else {
+      document.querySelector("#loader").style.display = "none";
+      document.querySelector("body").style.visibility = "visible";
+    }
+  };

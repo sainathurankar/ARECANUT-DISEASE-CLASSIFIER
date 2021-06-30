@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
 
 * {
   padding: 0;
@@ -72,32 +72,31 @@ body {
   margin-left: 10px;
 }
 
-.user-name1-guide{
+.user-name1-guide {
   margin-top: 20px;
   font-size: 20px;
   margin-left: -10px;
 }
 
-.user-name2{
+.user-name2 {
   margin-top: 30px;
   font-size: 20px;
   margin-left: 30px;
 }
 
-.user-name21{
+.user-name21 {
   margin-top: 20px;
 }
 
-.h521{
+.h521 {
   margin-top: 2px;
 }
 
-.h51{
+.h51 {
   margin-left: 10px;
 }
 
-
-.h52{
+.h52 {
   margin-left: 30px;
 }
 
@@ -107,7 +106,6 @@ body {
   margin: 20px 80px;
   margin-top: 40px;
 }
-
 
 .profile h5 {
   font-size: 15px;
@@ -133,59 +131,56 @@ body {
   background: transparent;
   color: white;
   margin-left: 15px;
-  text-decoration-line:none;
+  text-decoration-line: none;
 }
 
-.fa-google-plus{
+.fa-google-plus {
   background: transparent;
   color: white;
   margin-left: 15px;
-  text-decoration-line:none;
+  text-decoration-line: none;
 }
 
-.fa-github{
+.fa-github {
   background: transparent;
   color: white;
   margin-left: 8px;
-  text-decoration-line:none;
+  text-decoration-line: none;
 }
 
-
-.social-media{
-  margin-top: 10px;  
+.social-media {
+  margin-top: 10px;
 }
 
-.college{
+.college {
   text-align: center;
   margin-top: 60px;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   text-underline-position: auto;
 }
 
-.classifier{
+.classifier {
   text-align: center;
   margin-top: 10px;
   transition: 0.1s;
   width: auto;
 }
 
-.classifier:hover{
+.classifier:hover {
   text-decoration: underline;
   color: #0241b8ad;
 }
 
-.guide{
+.guide {
   text-align: center;
   margin-left: -65px;
 }
-
-
 
 @media only screen and (max-width: 1150px) {
   .profiles {
@@ -209,28 +204,51 @@ a{
     margin-top: 15px;
     font-size: 20px;
   }
-  
+
   .user-name1 {
     margin-top: 15px;
     font-size: 20px;
     margin-left: 10px;
   }
-  
-  .user-name2{
+
+  .user-name2 {
     margin-top: 15px;
     font-size: 20px;
     margin-left: 15px;
   }
 
-  .h52{
+  .h52 {
     margin-left: 15px;
   }
 
-
-  .guide{
+  .guide {
     margin-left: 10px;
     font-size: 40px;
   }
+}
+
+#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 @media only screen and (max-width: 900px) {
@@ -248,28 +266,27 @@ a{
     margin: 20px 0;
   }
 
-
   .profile p {
     margin: 20px 10px 80px 10px;
   }
 
-  .profile img{
+  .profile img {
     margin-top: 10px;
   }
 
-  .profile .social-media{
+  .profile .social-media {
     margin-left: -20px;
   }
 
-  .profiles-one  .profile{
+  .profiles-one .profile {
     margin-left: 460px;
   }
 
-  h2{
+  h2 {
     margin-left: 45px;
   }
 
-  .classifier a{
+  .classifier a {
     margin-left: 46px;
   }
 }
