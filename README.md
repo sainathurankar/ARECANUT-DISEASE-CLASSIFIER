@@ -1,6 +1,6 @@
 # Arecanut-Disease-Classifier
 
-Proposed a system that helps in detecting the
+A Website that helps in detecting the
 diseases of arecanut, leaves, and its trunk using Convolutional
 Neural Networks and suggests remedies for it.
 ## Authors
@@ -10,11 +10,6 @@ Neural Networks and suggests remedies for it.
 ## Documentation
 
 [Documentation](https://bit.ly/2ULbNbu)
-## Run
-
-To use this project
-
-[Click Here](https://bit.ly/3jCbLNo)
 
   
 ## Screenshots
@@ -22,6 +17,11 @@ To use this project
 ![Website Screenshot](images/UI.PNG)
 
 
+## Run
+
+To use this Website
+
+[Click Here](https://bit.ly/3jCbLNo)
 
 
   
