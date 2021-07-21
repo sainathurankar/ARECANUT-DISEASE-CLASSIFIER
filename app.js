@@ -6,7 +6,7 @@ var dict = {
     Yellow_disease :"Disease can be controlled by spraying with one per cent Bordeaux mixture or Dithane M 45 @ 3 gram/Liter.",
 };
 
-var url = "http://127.0.0.1:5000/classify_image";
+var url = "https://bd0578e5589d.ngrok.io/classify_image";
 
 function API(){
 url = prompt("Please enter the API address",url);
